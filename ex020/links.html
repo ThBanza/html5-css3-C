@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personalizando</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        a{
+            color: violet;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        a:visited{
+            color: darkviolet;
+        }
+
+        a:hover{
+            color: black;
+            text-decoration: underline;
+        }
+
+        a:active{
+            color: blue;
+        }
+
+        a::after{
+            content: '[link]';
+            text-decoration: none;
+            font-weight: normal;
+            color: darkgray;
+        }
+    </style>
+</head>
+<body>
+    <h1>Personalizando Links</h1>
+    <ul>
+        <li><a href="http://youtube.com" target="_blank">Canal Youtube</a></li>
+        <li><a href="http://instagram.com" target="_blank">Canal Instagram</a></li>
+        <li><a href="https://twitch.tv/" target="_blank">Canal Stream</a></li>
+    </ul>
+</body>
+</html>
