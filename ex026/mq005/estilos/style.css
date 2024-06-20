@@ -14,7 +14,20 @@ header {
 
 header > h1 {
     padding: 10px;
+    text-align: center ;
+}
+.material-symbols-outlined{
+    background-color: rgb(48, 48, 48);
+    color: white;
+    display: block;
     text-align: center;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.material-symbols-outlined:hover{
+    background-color: white;
+    color: black;
 }
 
 menu {
